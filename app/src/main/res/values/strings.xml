@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail_">Detail_Activity</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="search">Search</string>
+
+
+</resources>

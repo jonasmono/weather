@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <EditText
+        android:id="@+id/cityEdtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginTop="5dp"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:layout_toLeftOf="@+id/searchButton"
+        android:layout_toStartOf="@+id/searchButton">
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/cityEdtText"
+        android:id="@+id/txt1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:id="@+id/searchButton"
+        android:layout_above="@+id/txt1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listview"
+        android:layout_below="@id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+
+
